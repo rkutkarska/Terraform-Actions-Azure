@@ -48,7 +48,7 @@ jobs:
 
     # Apply Terraform configuration
     - name: Terraform Apply
-      run: terraform fmt apply
+      run: terraform apply
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
